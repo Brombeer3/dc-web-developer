@@ -2,12 +2,17 @@ h1 {
   color: blueviolet;
   font-size: 5rem;
   text-align: center;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
 }
-
+body {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
 p {
   color: rgb(180, 20, 134);
   font-size: 1.5rem;
-  text-align: center;
 }
 a:hover {
   background-color: yellow;
