@@ -1,5 +1,5 @@
 h1 {
-  color: blueviolet;
+  color: #e67581;
   font-size: 5rem;
   text-align: center;
   font-family: "Fira Sans", sans-serif;
@@ -9,9 +9,10 @@ body {
   font-family: "Fira Sans", sans-serif;
   font-weight: 400;
   text-align: center;
+  background-color: #d4f1f4;
 }
 p {
-  color: rgb(180, 20, 134);
+  color: #dc3c4d;
   font-size: 1.5rem;
 }
 a:hover {
@@ -21,4 +22,13 @@ a:hover {
 
 a {
   text-decoration: none;
+}
+
+img {
+  border-radius: 100%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 300px;
 }
