@@ -9,3 +9,11 @@ p {
   font-size: 1.5rem;
   text-align: center;
 }
+a:hover {
+  background-color: yellow;
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+}
