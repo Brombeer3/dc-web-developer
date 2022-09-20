@@ -87,3 +87,16 @@ body {
   border: none;
   font-size: 20px;
 }
+
+.footer-1 {
+  text-align: center;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #950700;
+}
