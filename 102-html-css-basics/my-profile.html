@@ -22,18 +22,18 @@
     <nav>
       <ul class="nav-bar">
         <li class="nav-bar-list-item">
-          <a class="nav-bar-link" href="news.html">About Me</a>
+          <a class="nav-bar-link" href="#about-me">About Me</a>
         </li>
         <li class="nav-bar-list-item">
           <a class="nav-bar-link" href="#skills">Skills</a>
         </li>
         <li class="nav-bar-list-item">
-          <a class="nav-bar-link" href="über-uns.html">Contact</a>
+          <a class="nav-bar-link" href="#contact">Contact</a>
         </li>
       </ul>
     </nav>
     <main>
-      <div class="heading">
+      <div id="about-me" class="heading">
         <h1 class="header-1">My Profile</h1>
         <h2 class="header-2">Business-Card</h2>
       </div>
@@ -70,12 +70,20 @@
       </div>
       <br />
       <div>
-        <h2 class="header-2">Contact</h2>
-        <a href="https://fortix.io" class="btn"
-          ><i class="fa-brands fa-instagram"></i>
-        </a>
+        <h2 id="contact" class="header-2">Contact</h2>
         <button class="btn">
-          <i class="fa-solid fa-envelope"></i>
+          <a
+            class="mail-button"
+            href="https://www.instagram.com/fastschonmarco/"
+            target="_blank"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </button>
+        <button class="btn">
+          <a class="mail-button" href="mailto:marco.obermueller@hotmail.com">
+            <i class="fa-solid fa-envelope"></i
+          ></a>
         </button>
       </div>
     </main>
