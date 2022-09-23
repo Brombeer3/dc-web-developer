@@ -9,10 +9,10 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: scroll;
+
   background-color: rgba(131, 125, 110, 0.4);
 
-  width: 350px;
+  width: 338px;
   position: fixed;
   top: 0;
   left: 0;
@@ -32,6 +32,8 @@ body {
 
 .nav-bar-list-item:hover {
   background-color: #575349;
+  border-right: black solid 5px;
+  border-bottom: black solid 5px;
 }
 .nav-bar-link {
   text-decoration: none;
@@ -138,4 +140,13 @@ img {
   background-color: #a39779;
   text-decoration: none;
   color: black;
+}
+
+.mail-button {
+  text-decoration: none;
+}
+
+i {
+  font-size: 30px;
+  color: aliceblue;
 }
