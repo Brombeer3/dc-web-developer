@@ -182,3 +182,27 @@ i {
 #form {
   display: inline;
 }
+
+.gallery {
+  margin: 1em auto;
+  border: 1px solid #ccc;
+  display: block;
+  width: 180px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.gallery-wrapper {
+  width: 10%;
+  margin: 0 auto 2em;
+  display: block;
+  border: solid 5px black;
+}
