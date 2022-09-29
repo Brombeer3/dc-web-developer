@@ -80,6 +80,7 @@ body {
   height: 300px;
   padding: 5px 0;
   text-align: center;
+  border-radius: 5px;
 }
 
 img {
@@ -96,7 +97,7 @@ img {
 .border-bar {
   margin: 50px auto;
   width: 80%;
-
+  border-radius: 5px;
   border: black 2px solid;
 }
 
@@ -146,6 +147,7 @@ img {
   background-color: #a39779;
   text-decoration: none;
   color: black;
+  border-radius: 5px;
 }
 
 .mail-button {
@@ -157,12 +159,25 @@ i {
   color: aliceblue;
 }
 
+.header-4 {
+  text-align: center;
+
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  font-size: 1.5rem;
+  position: relative;
+  margin: 3em auto 0;
+  left: 0;
+  right: 0;
+  display: block;
+}
 .form-container {
   border: solid 1px black;
   width: 50%;
-  margin: 3em auto;
+  margin: 2em auto;
   text-align: center;
   position: relative;
+  border-radius: 5px;
 }
 #form {
   display: inline;
