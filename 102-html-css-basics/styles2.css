@@ -156,3 +156,14 @@ i {
   font-size: 30px;
   color: aliceblue;
 }
+
+.form-container {
+  border: solid 1px black;
+  width: 50%;
+  margin: 3em auto;
+  text-align: center;
+  position: relative;
+}
+#form {
+  display: inline;
+}
