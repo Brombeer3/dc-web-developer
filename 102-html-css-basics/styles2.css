@@ -21,22 +21,24 @@ body {
 
 .nav-bar-list-item {
   text-align: left;
-  padding: 8px;
+  padding: 8px 16px;
   text-decoration: none;
   float: left;
   font-size: 1.5rem;
   font-weight: 300;
-  height: 40px;
-  width: 120px;
+  height: auot;
+  width: auto;
+  /*box-sizing: border-box;*/
+  border-right: transparent solid 5px;
+  border-bottom: transparent solid 5px;
 }
-
+.active {
+  font-weight: 700;
+}
 .nav-bar-list-item:hover {
   background-color: #575349;
   border-right: black solid 5px;
   border-bottom: black solid 5px;
-  position: relative;
-  height: 35px;
-  width: 115px;
 }
 .nav-bar-link {
   text-decoration: none;
