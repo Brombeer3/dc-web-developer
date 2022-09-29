@@ -12,7 +12,7 @@ body {
 
   background-color: rgba(131, 125, 110, 0.4);
 
-  width: 338px;
+  width: auto;
   position: fixed;
   top: 0;
   left: 0;
@@ -20,24 +20,28 @@ body {
 }
 
 .nav-bar-list-item {
-  display: block;
-
-  text-align: center;
-  padding: 14px 16px;
+  text-align: left;
+  padding: 8px;
   text-decoration: none;
   float: left;
   font-size: 1.5rem;
   font-weight: 300;
+  height: 40px;
+  width: 120px;
 }
 
 .nav-bar-list-item:hover {
   background-color: #575349;
   border-right: black solid 5px;
   border-bottom: black solid 5px;
+  position: relative;
+  height: 35px;
+  width: 115px;
 }
 .nav-bar-link {
   text-decoration: none;
   color: inherit;
+  text-align: inherit;
 }
 .header-1 {
   text-align: center;
