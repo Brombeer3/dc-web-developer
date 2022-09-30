@@ -184,9 +184,9 @@ i {
 }
 
 .gallery {
-  margin: 1em auto;
+  margin: 1em 1em;
   border: 1px solid #ccc;
-  display: block;
+  display: inline-block;
   width: 180px;
 }
 
@@ -201,8 +201,16 @@ i {
 }
 
 .gallery-wrapper {
-  width: 10%;
+  width: 80%;
   margin: 0 auto 2em;
-  display: block;
-  border: solid 5px black;
+  display: flex;
+  border: solid 2px black;
+  align-items: center;
+  border-radius: 5px;
+}
+.idiot {
+  display: ;
+  align-items: center;
+  width: auto;
+  margin: 0 auto;
 }
