@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  height: 70vh;
+  background-color: #d6dce6;
+  align-items: center;
+}
+
+.header .header-content {
+  padding: 0 50px;
+}
+
+.header .header-image {
+  width: 30%;
+  height: 100%;
+  flex-shrink: 0;
+  object-fit: cover;
+}

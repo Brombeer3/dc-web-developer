@@ -1,0 +1,19 @@
+.head-box {
+  height: 70vh;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.watch-header {
+  align-items: flex-end;
+  width: 200px;
+}
+
+.shop-button {
+  width: 120px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: #00003f;
+  color: #fff;
+  border: none;
+}
