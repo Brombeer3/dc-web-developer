@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 3px black;
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+}
+
+.navbar-item {
+  padding: 0.8rem;
+  font-size: 1.25rem;
+}
+
+.logo {
+  padding-left: 5%;
+  max-width: 30%;
+  height: auto;
+}
+.head-box {
+}
