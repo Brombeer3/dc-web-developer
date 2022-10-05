@@ -15,6 +15,17 @@
   flex-shrink: 0;
   object-fit: cover;
 }
+@media screen (min-width: 320px) and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .header-image {
+    width: 200px;
+    height: 200px;
+  }
+}
+
 h6 {
   color: #fff;
   font-weight: bold;
