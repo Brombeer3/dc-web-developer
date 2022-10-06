@@ -39,3 +39,17 @@ nav ul li:hover {
   border-bottom: 3px solid gold;
   padding-bottom: 0px;
 }
+
+@media (max-width: 576px) {
+  #logo {
+    display: none;
+  }
+
+  #logo-mobile {
+    display: block;
+  }
+  nav ul li {
+    font-size: 16px;
+    text-align: end;
+  }
+}

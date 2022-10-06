@@ -60,3 +60,13 @@ footer .footer-subline {
   text-align: center;
   padding: 10px 0px;
 }
+
+@media (max-width: 992px) {
+  .footer-content {
+    flex-direction: column;
+  }
+  .footer-content-contact {
+    align-self: start;
+    gap: 50px;
+  }
+}

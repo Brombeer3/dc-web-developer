@@ -1,10 +1,11 @@
 * {
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 body {
   margin: 0;
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
 }
 
 .background-dark {
@@ -27,7 +28,7 @@ h2 {
   margin: 20px;
   border-radius: 20px;
   background-color: white;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
   min-height: 150px;
 }

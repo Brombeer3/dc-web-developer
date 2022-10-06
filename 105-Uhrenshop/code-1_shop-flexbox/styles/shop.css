@@ -1,0 +1,34 @@
+.watches-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 10px;
+}
+
+.watch-card {
+  /* border: 5px red solid; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 90%;
+  background-color: rgb(186, 186, 186);
+  height: 18.75rem;
+  padding: 10px 0;
+  margin: 10px 0;
+}
+.watch-card .watch-img {
+  width: 90%;
+  height: 200px;
+  object-fit: cover;
+}
+
+@media (min-width: 576px) {
+  .watches-wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .watch-card {
+    flex-basis: 50%;
+  }
+}

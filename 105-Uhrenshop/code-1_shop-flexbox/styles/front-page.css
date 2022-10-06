@@ -29,7 +29,7 @@ section {
 
 .header-image {
   width: 30%;
-  background-image: url('../images/watch_header.jpg');
+  background-image: url("../images/watch_header.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -176,4 +176,61 @@ section {
 
 .cta-preline {
   text-transform: uppercase;
+}
+
+@media (max-width: 992px) {
+  .header-image {
+    display: none;
+  }
+  .header-section {
+    height: auto;
+  }
+  .header-content {
+    width: 100%;
+  }
+  .facts .fact {
+    flex-basis: calc(50% - 10px);
+    flex-grow: 0;
+  }
+  .facts {
+    justify-content: center;
+  }
+  .testimonial-block {
+    display: block;
+  }
+  .testimonials {
+    padding-bottom: 2rem;
+  }
+
+  .testimonial-block .testimonial-content {
+    display: block;
+    text-align: center;
+    margin-top: 5rem;
+  }
+  .team-wrapper {
+    flex-wrap: wrap;
+  }
+  .cta {
+    width: 80%;
+  }
+}
+
+@media (max-width: 576px) {
+  .facts .fact {
+    flex-basis: 0;
+    flex-grow: 0;
+    flex: auto;
+  }
+  .testimonials {
+    flex-direction: column;
+    width: max-content;
+  }
+  .testimonial:nth-child(even) {
+    top: 0;
+  }
+  .cta {
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+  }
 }
