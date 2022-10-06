@@ -1,0 +1,62 @@
+footer .footer-content {
+  display: flex;
+  justify-content: space-between;
+  background-color: #00003f;
+  color: white;
+  padding: 50px 100px;
+}
+
+.footer-content-contact {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.newsletter-signup {
+  display: flex;
+  flex-direction: column;
+}
+
+.newsletter-signup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.newsletter-signup-form input,
+.newsletter-signup-form button {
+  padding: 5px 10px;
+}
+
+.newsletter-signup-form input {
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+footer h4 {
+  margin-top: 0px;
+}
+
+footer ul {
+  list-style: none;
+  padding-inline-start: 0px;
+  margin: 0;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+footer ul li:last-child {
+  margin-bottom: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer .footer-subline {
+  text-align: center;
+  padding: 10px 0px;
+}

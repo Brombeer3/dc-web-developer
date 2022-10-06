@@ -1,0 +1,41 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  border-bottom: 5px solid #00003f;
+}
+
+#logo {
+  width: 300px;
+  display: block;
+}
+
+#logo-mobile {
+  display: none;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  column-gap: 30px;
+}
+
+nav ul li {
+  display: inline-block;
+  color: #00003f;
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 3px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #00003f;
+}
+
+nav ul li:hover {
+  border-bottom: 3px solid gold;
+  padding-bottom: 0px;
+}

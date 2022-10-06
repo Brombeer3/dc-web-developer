@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Mulish', sans-serif;
+}
+
+.background-dark {
+  background-color: #00003f;
+  color: white;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 22px;
+  margin: 0;
+}
+
+.card {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  min-height: 150px;
+}
+
+/*
+* buttons
+*/
+
+.button-primary,
+.button-secondary {
+  padding: 10px 30px;
+  border-radius: 25px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button-primary:hover {
+  background-color: #0e0e50;
+}
+
+.button-secondary:hover {
+  background-color: #bacae4;
+}
+
+.button-primary {
+  background-color: #00003f;
+  color: white;
+}
+
+.button-secondary {
+  background-color: #d6dce6;
+  color: #00003f;
+}
