@@ -1,0 +1,97 @@
+p {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.container-wrapper {
+  width: 1000px;
+  height: 400px;
+  margin: 100px auto;
+  border: solid 2px red;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: aquamarine;
+}
+
+.container-1 {
+  display: grid;
+  border: solid 2px red;
+  grid-template-rows: 2fr 5fr;
+  grid-row-end: ;
+  justify-items: center;
+}
+
+.circle {
+  border-radius: 100px;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+}
+
+.item-1 {
+  background-color: white;
+  align-self: end;
+}
+
+.item-2 {
+  grid-row-start: 0;
+  background-color: white;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+}
+
+.container-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr 1fr;
+
+  grid-template-areas:
+    "header header header header"
+    "main main main-2 main-2"
+    "footer footer footer footer"
+    "circle-1 circle-2 circle-3 circle-4";
+}
+
+.item-3 {
+  grid-area: header;
+}
+
+.item-4 {
+  grid-area: main;
+}
+
+.item-5 {
+  grid-area: main-2;
+}
+
+.item-6 {
+  grid-area: footer;
+  text-align: ;
+}
+
+.item-7 {
+  grid-area: circle-1;
+  place-self: center;
+}
+
+.item-8 {
+  grid-area: circle-2;
+
+  place-self: center;
+}
+.item-9 {
+  grid-area: circle-3;
+
+  place-self: center;
+}
+.item-10 {
+  grid-area: circle-4;
+
+  place-self: center;
+}
+
+.border {
+  border: 1px solid black;
+  border-bottom: 0px;
+}
