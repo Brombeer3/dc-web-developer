@@ -1,97 +1,81 @@
-p {
-  font-size: 2rem;
-  margin: 0;
-}
-
-.container-wrapper {
-  width: 1000px;
-  height: 400px;
-  margin: 100px auto;
-  border: solid 2px red;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  background-color: aquamarine;
-}
-
-.container-1 {
-  display: grid;
-  border: solid 2px red;
-  grid-template-rows: 2fr 5fr;
-  grid-row-end: ;
-  justify-items: center;
-}
-
-.circle {
-  border-radius: 100px;
-  height: 50px;
-  width: 50px;
-  background-color: white;
-}
-
-.item-1 {
-  background-color: white;
-  align-self: end;
-}
-
-.item-2 {
-  grid-row-start: 0;
-  background-color: white;
+.card {
   height: 200px;
   width: 200px;
+  border: 2px solid black;
   text-align: center;
 }
-
-.container-2 {
+.container-wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 2fr 1fr 1fr;
-
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas:
-    "header header header header"
-    "main main main-2 main-2"
-    "footer footer footer footer"
-    "circle-1 circle-2 circle-3 circle-4";
+    "card-1 card-2 card-3 card-4 card-5"
+    "card-16 . j. . card-6"
+    "card-15 . . . card-7"
+    "card-14 . . . card-8"
+    "card-13 card-12 card-11 card-10 card-9";
+  gap: 3em;
 }
 
-.item-3 {
-  grid-area: header;
+.field-1 {
+  grid-area: card-1;
 }
 
-.item-4 {
-  grid-area: main;
+.field-2 {
+  grid-area: card-2;
+}
+.field-3 {
+  grid-area: card-3;
+}
+.field-4 {
+  grid-area: card-4;
+}
+.field-5 {
+  grid-area: card-5;
+}
+.field-6 {
+  grid-area: card-6;
+}
+.field-7 {
+  grid-area: card-7;
+}
+.field-8 {
+  grid-area: card-8;
+}
+.field-9 {
+  grid-area: card-9;
+}
+.field-10 {
+  grid-area: card-10;
+}
+.field-11 {
+  grid-area: card-11;
+}
+.field-12 {
+  grid-area: card-12;
+}
+.field-13 {
+  grid-area: card-13;
+}
+.field-14 {
+  grid-area: card-14;
+}
+.field-15 {
+  grid-area: card-15;
+}
+.field-16 {
+  grid-area: card-16;
 }
 
-.item-5 {
-  grid-area: main-2;
+.green-field {
+  background-color: green;
+  border-top: solid 2px black;
+  height: 50px;
+  display: none;
 }
 
-.item-6 {
-  grid-area: footer;
-  text-align: ;
-}
+#party-button:checked ~ .container-wrapper .card .green-field {
+  display: block;
 
-.item-7 {
-  grid-area: circle-1;
-  place-self: center;
-}
-
-.item-8 {
-  grid-area: circle-2;
-
-  place-self: center;
-}
-.item-9 {
-  grid-area: circle-3;
-
-  place-self: center;
-}
-.item-10 {
-  grid-area: circle-4;
-
-  place-self: center;
-}
-
-.border {
-  border: 1px solid black;
-  border-bottom: 0px;
+  rotate: 180deg;
 }
