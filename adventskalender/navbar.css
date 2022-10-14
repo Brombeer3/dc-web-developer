@@ -1,4 +1,17 @@
-@media screen and (max-width: 992px) {
+.nav-bar {
+  width: 100%;
+  background-color: #e5f3fb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: none;
+}
+.li-item {
+  display: inline;
+  margin: 0 20px;
+}
+
+@media screen and (max-width: 576px) {
   #menuToggle input {
     visibility: visible;
   }

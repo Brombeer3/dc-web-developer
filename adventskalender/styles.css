@@ -19,18 +19,6 @@ input {
 .nav-bar ul {
   list-style: none;
 }
-.nav-bar {
-  width: 100%;
-  background-color: #e5f3fb;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  overflow: none;
-}
-.li-item {
-  display: inline;
-  margin: 0 20px;
-}
 
 .header-timer {
   display: flex;
@@ -51,10 +39,10 @@ input {
   grid-template-areas:
     "t     t     t     d2      d7      d8"
     "t     t     t     d4      d11     d12"
-    "t     t     t     d19     d9      d13"
+    "t     t     t     d19     d16      d13"
     "d6    d1    d24   d24     d21     d20"
     "d17   d18   d24   d24     d5      d22"
-    "d3    d23   d16   d14     d10     d15";
+    "d3    d23   d9   d14     d10     d15";
 }
 #menuToggle {
   display: flex;
@@ -65,7 +53,7 @@ input {
     grid-template-columns: repeat(4, 150px);
     grid-template-rows: repeat(9, 150px);
     grid-template-areas:
-      "t        t      t    d16"
+      "t        t      t    d9"
       "t        t      t    d3"
       "t        t      t    d18"
       "d2      d7      d8   d1"
@@ -73,7 +61,7 @@ input {
       "d22     d15     d5   d17"
       "d24     d24     d21  d10"
       "d24     d24     d20  d6"
-      "d14     d19     d9   d13";
+      "d14     d19     d16   d13";
   }
 
   .headline {
@@ -92,13 +80,13 @@ input {
       "t        t      t"
       "d2      d7      d8"
       "d4      d11     d12"
-      "d19     d9      d13"
+      "d19     d16      d13"
       "d24     d24    d20"
       "d24     d24      d22"
       "d14     d10     d15"
       "d6       d1     d5"
       "d17      d18    d21"
-      "d3       d23    d16";
+      "d3       d23    d9";
   }
 }
 
@@ -106,7 +94,7 @@ input {
   background-image: url(merrychristmas.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-color: ;
+
   grid-area: t;
 }
 .day-1 {
@@ -199,12 +187,13 @@ input {
   background-color: #92c8f5;
 }
 
-.special {
-  /* background: rgb(131, 58, 180);
+/* .special {
+   background: rgb(131, 58, 180);
   background: linear-gradient(
     90deg,
     rgba(131, 58, 180, 1) 0%,
     rgba(253, 29, 29, 1) 50%,
     rgba(252, 176, 69, 1) 100%
-  ); */
+  ); 
 }
+ */
