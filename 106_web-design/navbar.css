@@ -1,0 +1,118 @@
+/* @media screen and (max-width: 768px) {
+  .nav-bar {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: none;
+  }
+  .li-item {
+    display: inline;
+    margin: 0 20px;
+  }
+}
+.nav-bar ul {
+  list-style: none;
+} */
+
+.nav-bar {
+  background-color: var(--color-gray-one);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  padding-left: 15px;
+}
+.stupid-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+
+.download-button-navbar {
+  justify-items: ;
+  background-color: var(--color-primary-100);
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#menuToggle input {
+  visibility: visible;
+}
+
+#menuToggle {
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+  margin-right: 20px;
+}
+
+#menuToggle input {
+  display: flex;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 2;
+}
+
+#menuToggle span {
+  display: flex;
+  width: 29px;
+  height: 2px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #000;
+  border-radius: 3px;
+  z-index: 1;
+  transform-origin: 5px 0px;
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+    background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+}
+
+#menuToggle input:checked ~ span {
+  background: black !important;
+}
+
+#menu {
+  position: absolute;
+  top: 25px;
+  right: 10px;
+  width: 150px;
+  height: 200px;
+  box-shadow: 0 0 10px #85888c;
+  color: var(--color-primary);
+  list-style: none;
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f6fa;
+  -webkit-font-smoothing: antialiased;
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+}
+
+#menu li {
+  padding: 10px 0;
+  transition-delay: 0s;
+}
+
+#menuToggle input:checked ~ ul {
+  transform: none;
+  visibility: visible;
+}
+li {
+  width: 100px;
+}
