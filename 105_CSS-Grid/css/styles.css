@@ -1,0 +1,81 @@
+.card {
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  text-align: center;
+}
+.container-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "card-1 card-2 card-3 card-4 card-5"
+    "card-16 . j. . card-6"
+    "card-15 . . . card-7"
+    "card-14 . . . card-8"
+    "card-13 card-12 card-11 card-10 card-9";
+  gap: 3em;
+}
+
+.field-1 {
+  grid-area: card-1;
+}
+
+.field-2 {
+  grid-area: card-2;
+}
+.field-3 {
+  grid-area: card-3;
+}
+.field-4 {
+  grid-area: card-4;
+}
+.field-5 {
+  grid-area: card-5;
+}
+.field-6 {
+  grid-area: card-6;
+}
+.field-7 {
+  grid-area: card-7;
+}
+.field-8 {
+  grid-area: card-8;
+}
+.field-9 {
+  grid-area: card-9;
+}
+.field-10 {
+  grid-area: card-10;
+}
+.field-11 {
+  grid-area: card-11;
+}
+.field-12 {
+  grid-area: card-12;
+}
+.field-13 {
+  grid-area: card-13;
+}
+.field-14 {
+  grid-area: card-14;
+}
+.field-15 {
+  grid-area: card-15;
+}
+.field-16 {
+  grid-area: card-16;
+}
+
+.green-field {
+  background-color: green;
+  border-top: solid 2px black;
+  height: 50px;
+  display: none;
+}
+
+#party-button:checked ~ .container-wrapper .card .green-field {
+  display: block;
+
+  rotate: 180deg;
+}
