@@ -1,0 +1,48 @@
+h1 {
+  color: #e67581;
+  font-size: 5rem;
+  text-align: center;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+}
+body {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  background-color: #d4f1f4;
+  margin: 0;
+}
+p {
+  color: #dc3c4d;
+  font-size: 1.5rem;
+}
+a:hover {
+  background-color: yellow;
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border-radius: 100%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 300px;
+}
+
+.footline {
+  background-color: #05445e;
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  height: 60px;
+}
+
+.profile-link {
+  color: #ffffff;
+  font-size: 3rem;
+}

@@ -1,0 +1,215 @@
+body {
+  background-color: #6878a3;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  color: aliceblue;
+}
+
+.nav-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  background-color: rgba(131, 125, 110, 0.4);
+
+  width: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.nav-bar-list-item {
+  text-align: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  float: left;
+  font-size: 1.5rem;
+  font-weight: 300;
+  height: auot;
+  width: auto;
+  /*box-sizing: border-box;*/
+  border-right: transparent solid 5px;
+  border-bottom: transparent solid 5px;
+}
+.active {
+  font-weight: 700;
+}
+.nav-bar-list-item:hover {
+  background-color: #575349;
+  border-right: black solid 5px;
+  border-bottom: black solid 5px;
+}
+.nav-bar-link {
+  text-decoration: none;
+  color: inherit;
+  text-align: inherit;
+}
+.header-1 {
+  text-align: center;
+
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  position: relative;
+  margin: 100px auto 20px auto;
+  left: 0;
+  right: 0;
+  display: block;
+}
+
+.header-2 {
+  text-align: center;
+
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  position: relative;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  display: block;
+}
+
+.profile-img {
+  margin: 50px auto;
+  display: block;
+  position: relative;
+  border: solid black 1px;
+  width: 300px;
+  height: 300px;
+  padding: 5px 0;
+  text-align: center;
+  border-radius: 5px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+.skills {
+  text-align: center;
+}
+
+.border-bar {
+  margin: 50px auto;
+  width: 80%;
+  border-radius: 5px;
+  border: black 2px solid;
+}
+
+.html-bar {
+  background-color: red;
+  width: 90%;
+}
+.css-bar {
+  background-color: blue;
+  width: 60%;
+}
+
+.js-bar {
+  background-color: green;
+  width: 30%;
+}
+
+.html-bar:hover {
+  visibility: visible;
+  opacity: 0.5;
+}
+.css-bar:hover {
+  visibility: visible;
+  opacity: 0.5;
+}
+
+.js-bar:hover {
+  visibility: visible;
+  opacity: 0.5;
+}
+
+.hidden-number {
+  opacity: 0;
+  text-align: right;
+}
+
+.hidden-number:hover {
+  opacity: 1;
+}
+
+.btn {
+  height: 50px;
+  width: 50px;
+  margin: 20px auto;
+  display: block;
+  border: none;
+  background-color: #a39779;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+}
+
+.mail-button {
+  text-decoration: none;
+}
+
+i {
+  font-size: 30px;
+  color: aliceblue;
+}
+
+.header-4 {
+  text-align: center;
+
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  font-size: 1.5rem;
+  position: relative;
+  margin: 3em auto 0;
+  left: 0;
+  right: 0;
+  display: block;
+}
+.form-container {
+  border: solid 1px black;
+  width: 50%;
+  margin: 2em auto;
+  text-align: center;
+  position: relative;
+  border-radius: 5px;
+}
+#form {
+  display: inline;
+}
+
+.gallery {
+  margin: 1em 1em;
+  border: 1px solid #ccc;
+  display: inline-block;
+  width: 180px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.gallery-wrapper {
+  width: 80%;
+  margin: 0 auto 2em;
+  display: flex;
+  border: solid 2px black;
+  align-items: center;
+  border-radius: 5px;
+}
+.idiot {
+  align-items: center;
+  width: auto;
+  margin: 0 auto;
+}

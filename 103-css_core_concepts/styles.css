@@ -1,0 +1,155 @@
+.head-img {
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: -100px auto;
+  left: 0;
+  right: 0;
+  border: 5px solid #c1000c;
+  position: absolute;
+}
+/*.head-img-border {
+}*/
+
+body {
+  font-family: "Inter";
+  background-color: #fde4e5;
+}
+.box {
+  padding-top: 200px;
+  margin: 150px 10% 50px 10%;
+  background-color: #f6999e;
+  border: 5px solid #c1000c;
+  display: block;
+  border-radius: 10px;
+}
+
+.header {
+  font-weight: bold;
+  font-family: "Raleway";
+  text-align: center;
+}
+
+.header-year {
+  color: #c1000c;
+}
+
+.header-2 {
+  color: grey;
+  font-weight: 400;
+  text-align: center;
+}
+
+.header-3 {
+  color: white;
+  margin: 0;
+}
+
+.inner-box {
+  display: block;
+  margin: 5px 30px;
+  padding: 20px;
+  background-color: #c1000c;
+  color: #ffffff;
+  border-radius: 20px;
+}
+
+.list-1 {
+  list-style: none;
+}
+
+.important-list-item::before {
+  content: "";
+  border-left: 5px solid yellow;
+  padding-right: 10px;
+  margin-left: -15px;
+}
+
+.important-list-item {
+  color: yellow;
+}
+
+.link-style-1 {
+  background-color: #fff8a4;
+  text-decoration: none;
+  color: #c1000c;
+}
+
+.btn {
+  display: block;
+  margin: 20px auto;
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #950700;
+  border: none;
+  font-size: 20px;
+}
+
+.footer-1 {
+  text-align: center;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #950700;
+}
+
+.big-boy-list-item {
+  background-color: #950700;
+  display: block;
+  padding: ;
+  margin: 20px auto;
+  width: 300px;
+  height: 80px;
+  text-align: center;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+
+.big-boy-span {
+  margin-top: 20px;
+  font-weight: 200;
+}
+
+.big-boy-list-item-important {
+  background-color: #c1000c;
+  display: block;
+  padding: ;
+  margin: 20px auto;
+  width: 300px;
+  height: 80px;
+  text-align: center;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+
+.btn-2 {
+  display: block;
+  margin: 20px auto;
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #950700;
+  border: none;
+  font-size: 20px;
+  text-align: center;
+}
+
+.fuck-you-ul {
+  padding: 0;
+  list-style-type: none;
+}

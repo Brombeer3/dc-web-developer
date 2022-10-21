@@ -1,0 +1,20 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+  border-bottom: 5px solid #00003f;
+  align-items: center;
+}
+
+.nav-container #logo {
+  width: 300px;
+}
+
+.nav-container nav ul {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-container nav ul li a:hover {
+  border-bottom: 3px solid gold;
+}

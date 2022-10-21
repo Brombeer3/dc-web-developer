@@ -1,0 +1,53 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin: 0;
+}
+
+nav {
+  position: sticky;
+  top: 2rem;
+}
+
+h1 {
+  font-family: cursive;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.profile {
+  text-align: center;
+  border: solid black 1px;
+  width: 30%;
+  margin: auto;
+
+  img {
+    height: 19.375rem;
+    width: 15.625rem;
+  }
+}
+
+.side-bar {
+  border: solid 3px black;
+  border-right: none;
+
+  display: flex;
+  flex-direction: column;
+
+  margin-left: auto;
+  margin-right: 0;
+  width: 60px;
+}
+
+.btn {
+  width: 60px;
+  height: 60px;
+  background-color: transparent;
+  border: none;
+  border-bottom: solid 1px blue;
+
+  i {
+    font-size: 2rem;
+  }
+}

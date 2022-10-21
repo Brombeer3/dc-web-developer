@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Raleway:wght@100;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles2.css" />
+    <title>My Profil</title>
+  </head>
+  <body>
+    <nav>
+      <ul class="nav-bar">
+        <li class="nav-bar-list-item active">
+          <a class="nav-bar-link" href="#about-me">About Me</a>
+        </li>
+        <li class="nav-bar-list-item">
+          <a class="nav-bar-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-bar-list-item">
+          <a class="nav-bar-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <div id="about-me" class="heading">
+        <h1 class="header-1">My Profile</h1>
+        <h2 class="header-2">Business-Card</h2>
+      </div>
+
+      <div class="profile-img">
+        <img src="images/ape.jpeg" alt="img-ape" />
+        <h3>Peter Lustig</h3>
+        <p>
+          Full Stack Ape <br />
+          Austria, Vorarlberg
+        </p>
+      </div>
+      <br />
+      <br />
+      <br />
+      <div id="skills"><h2 class="header-2">Skills</h2></div>
+      <div class="skills">
+        <br />
+        <br />
+        <h3>HTML</h3>
+        <div class="border-bar">
+          <div class="html-bar">
+            <div class="hidden-number">90%</div>
+          </div>
+        </div>
+        <h3>CSS</h3>
+        <div class="border-bar">
+          <div class="css-bar"><div class="hidden-number">60%</div></div>
+        </div>
+        <h3>Javascript</h3>
+        <div class="border-bar">
+          <div class="js-bar"><div class="hidden-number">30%</div></div>
+        </div>
+      </div>
+      <br />
+      <div>
+        <h2 id="contact" class="header-2">Contact</h2>
+        <button class="btn">
+          <a
+            class="mail-button"
+            href="https://www.instagram.com/fastschonmarco/"
+            target="_blank"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </button>
+        <button class="btn">
+          <a class="mail-button" href="mailto:marco.obermueller@hotmail.com">
+            <i class="fa-solid fa-envelope"></i
+          ></a>
+        </button>
+      </div>
+      <div><h4 class="header-4">Kontaktanfrage</h4></div>
+      <div class="form-container">
+        <form id="form">
+          <input class="form-item" type="text" placeholder="Vorname" />
+          <input class="form-item" type="text" placeholder="Nachname" />
+          <input class="form-item" type="text" placeholder="E-Mail Adresse" />
+          <input type="button" value="Senden" />
+        </form>
+      </div>
+      <div class="gallery-wrapper">
+        <div class="idiot">
+          <div class="gallery">
+            <a target="_blank" href="images/ape-1.jpeg">
+              <img
+                src="images/ape-1.jpeg"
+                alt="An Ape Image"
+                width="600"
+                height="400"
+              />
+            </a>
+            <div class="desc">The Most Wonderful Creature</div>
+          </div>
+
+          <div class="gallery">
+            <a target="_blank" href="images/ape-2.jpeg">
+              <img
+                src="images/ape-2.jpeg"
+                alt="An Ape Image"
+                width="600"
+                height="400"
+              />
+            </a>
+            <div class="desc">What a sight, a majestic Ape.</div>
+          </div>
+
+          <div class="gallery">
+            <a target="_blank" href="images/ape-3.jpeg">
+              <img
+                src="images/ape-3.jpeg"
+                alt="An Ape Image "
+                width="600"
+                height="400"
+              />
+            </a>
+            <div class="desc">The ancestor of the human.</div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
