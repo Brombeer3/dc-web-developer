@@ -13,7 +13,7 @@
     <title>Food Delivery</title>
   </head>
   <body>
-    <nav class="nav-bar" role="navbar">
+    <nav class="nav-bar-mobile" role="navbar">
       <img class="logo" src="images/image 5.png" alt="logo" />
       <div class="stupid-wrapper">
         <a class="download-button-navbar" href="#"
@@ -25,36 +25,59 @@
           <span></span>
           <span></span>
           <ul id="menu">
-            <li class="li-item">App für Kunden</li>
-            <li class="li-item">Für Unternehmen</li>
-            <li class="li-item">Über uns</li>
-            <li class="li-item">Kontakt</li>
+            <li class="li-item"><a href="#">App für Kunden</a></li>
+            <li class="li-item"><a href="#">Für Unternehmen</a></li>
+            <li class="li-item"><a href="#">Über uns</a></li>
+            <li class="li-item"><a href="#">Kontakt</a></li>
           </ul>
         </div>
       </div>
     </nav>
+    <nav class="nav-bar-desktop" role="navbar">
+      <img class="logo" src="images/image 5.png" alt="logo" />
+      <div class="stupid-wrapper">
+        <div id="menuToggle">
+          <ul id="nav-ul-desktop">
+            <li class="li-item"><a href="#">App für Kunden</a></li>
+            <li class="li-item"><a href="#">Für Unternehmen</a></li>
+            <li class="li-item"><a href="#">Über uns</a></li>
+            <li class="li-item"><a href="#">Kontakt</a></li>
+          </ul>
+        </div>
+      </div>
+      <button class="download-btn-desktop">Download</button>
+    </nav>
     <header class="header">
       <img
+        class="mobile-burger"
         src="images/mae-mu-I7A_pHLcQK8-unsplash (1) 1.png"
         alt="burger-img"
       />
-      <h1 class="headline-1">
-        Der <span class="colored-text">pünktliche</span> Lieferservice mit
-        <br />größter <span class="colored-text">Vielfalt</span>
-      </h1>
-      <input
-        type="form"
-        name="search-bar"
-        id="search-bar"
-        placeholder="Deine Lieferadresse..."
+      <img
+        class="desktop-burger"
+        src="images/desktop-burger.png"
+        alt="burger-img"
       />
-      <p class="header-text">
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-        voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-        amet.
-      </p>
+      <div class="special-wrapper-desktop">
+        <h1 class="headline-1">
+          Der
+          <span class="colored-text">pünktliche</span> Lieferservice mit
+          <br />größter <span class="colored-text">Vielfalt</span>
+        </h1>
+        <input
+          type="form"
+          name="search-bar"
+          id="search-bar"
+          placeholder="Deine Lieferadresse..."
+        />
+        <p class="header-text">
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+          rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+          ipsum dolor sit amet.
+        </p>
+      </div>
     </header>
     <section>
       <div class="facts">
@@ -64,25 +87,32 @@
         <p class="text-mobile">
           <span class="bold-mobile">23.500</span><br />Restaurants
         </p>
-        <p id="hide-that-shit" class="text-mobile">
-          <span class="bold-mobile">23.500</span><br />Restaurants
-        </p>
-        <p id="hide-that-shit" class="text-mobile">
-          <span class="bold-mobile">23.500</span><br />Restaurants
-        </p>
-        <p id="hide-that-shit" class="text-mobile">
-          <span class="bold-mobile">23.500</span><br />Restaurants
-        </p>
+        <p><span class="bold-mobile">23.500</span><br />Restaurants</p>
+        <p><span class="bold-mobile">23.500</span><br />Restaurants</p>
+        <p><span class="bold-mobile">23.500</span><br />Restaurants</p>
       </div>
     </section>
 
-    <section>
-      <div class="cuisine">
+    <section class="cuisine">
+      <div class="container">
         <h2 class="headline-2">
           Wähle aus über <span class="colored-text">50 Küchenarten</span> aus
           und genieße unsere Vielfalt
         </h2>
+        <div class="cuisine-tag">Chinesisch</div>
+        <div class="cuisine-tag">Koreanisch</div>
+        <div class="cuisine-tag">Amerikanisch</div>
+        <div class="cuisine-tag">Italienisch</div>
+        <div class="cuisine-tag">Bürgerlich</div>
+        <div class="cuisine-tag">Französisch</div>
+        <div class="cuisine-tag">Griechisch</div>
+        <div class="cuisine-tag">Mexikanisch</div>
+        <a id="fortix-link" href="https://fortix.io">Alle Anzeigen</a>
       </div>
+    </section>
+    <section class="container">
+      <h3 class="headline-3">Headline kommt hierher bla bla bla</h3>
+      <div class="shape-1"></div>
     </section>
   </body>
 </html>
