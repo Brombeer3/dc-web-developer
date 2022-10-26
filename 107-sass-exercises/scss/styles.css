@@ -1,0 +1,63 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightyellow;
+  width: 150px;
+  height: 50px;
+  padding: 20px;
+  border: none;
+  border-radius: 20px;
+}
+
+/* $button-colors: ("easy": $easy, "intermediate": $intermediate, "hard": $hard); */
+.easy {
+  border: solid 5px rgb(0, 255, 0);
+  color: rgb(0, 255, 0);
+}
+
+.intermediate {
+  border: solid 5px rgb(255, 170, 42);
+  color: rgb(255, 170, 42);
+}
+
+.hard {
+  border: solid 5px rgb(161, 0, 0);
+  color: rgb(161, 0, 0);
+}
+
+.easy {
+  background-color: #99ff99;
+}
+
+.intermediate {
+  background-color: #ffe7c3;
+}
+
+.hard {
+  background-color: #ff3b3b;
+}
+
+header {
+  margin-top: 20px;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}
+
+* {
+  border: dotted 5px hotpink;
+  border-radius: 20px;
+}
+
+/*# sourceMappingURL=styles.css.map */

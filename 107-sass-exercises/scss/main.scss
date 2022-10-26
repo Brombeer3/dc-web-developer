@@ -1,0 +1,16 @@
+@use "base.scss" as *;
+@use "components.scss" as *;
+@use "layout.scss" as *;
+
+header {
+  margin-top: 20px;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}
+
+* {
+  @include beautiful-border;
+}

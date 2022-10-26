@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+$color-primary: lightyellow;
+$color-secondary: lightblue;
+$color-difficutly: red;
+$color-easy: rgb(0, 255, 0);
+$color-intermediate: rgb(255, 170, 42);
+$color-hard: rgb(161, 0, 0);
+$color-mindfuck: radial-gradient(
+  circle,
+  rgba(131, 58, 180, 1) 0%,
+  rgba(89, 181, 161, 1) 24%,
+  rgba(211, 200, 107, 1) 54%,
+  rgba(223, 114, 146, 1) 70%,
+  rgba(255, 134, 134, 1) 84%,
+  rgba(252, 176, 69, 1) 100%
+);
+
+$button-colors: (
+  "easy": $color-easy,
+  "intermediate": $color-intermediate,
+  "hard": $color-hard,
+);

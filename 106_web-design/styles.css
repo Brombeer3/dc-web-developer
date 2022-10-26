@@ -47,7 +47,34 @@ a {
   border-radius: 8px;
   border: none;
   font-size: 1.25rem;
+  cursor: pointer;
+  transform: scale(1);
+  animation: pulse-black 2s infinite;
+  transform: scale(1);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
 }
+
+#search-bar:hover {
+  animation: none;
+}
+
+@keyframes pulse-black {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+  }
+
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+}
+
 .container {
   padding: 0 20px;
 }
@@ -162,7 +189,16 @@ a {
     height: 643px;
     align-self: flex-end;
     order: 2;
+    animation: strobe 50ms steps(10, end) infinite;
+    transition: flex 0.3s;
   }
+
+  @keyframes strobe {
+    50% {
+      background: red;
+    }
+  }
+
   .header-text {
     margin-top: 20px;
     display: unset;

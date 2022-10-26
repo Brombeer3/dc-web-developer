@@ -1,0 +1,32 @@
+@use "base.scss" as *;
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $color-primary;
+  width: 150px;
+  height: 50px;
+  padding: 20px;
+  border: none;
+  border-radius: 20px;
+}
+/* $button-colors: ("easy": $easy, "intermediate": $intermediate, "hard": $hard); */
+
+@each $name, $color in $button-colors {
+  .#{$name} {
+    border: solid 5px $color;
+    color: $color;
+  }
+}
+
+@each $name, $color in $button-colors {
+  .#{$name} {
+    background-color: lighten($color, 30%);
+  }
+}
+
+@mixin beautiful-border {
+  border: dotted 5px hotpink;
+  border-radius: 20px;
+}
